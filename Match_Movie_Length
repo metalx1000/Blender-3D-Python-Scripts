@@ -1,0 +1,3 @@
+for t in bpy.data.textures:
+     duration = bpy.data.images[t.name + ".MOV"].frame_duration
+     t.image_user.frame_duration = duration
